@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity 2</title>
+    </head>
+    <body>
+        <h2>Error Handling</h2>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            try{
+                add(10,20);
+            }
+            catch(e){
+                document.getElementById("p1").innerHTML=e.message;
+            }
+        </script>
+    </body>
+</html>
